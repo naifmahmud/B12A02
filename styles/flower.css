@@ -97,6 +97,37 @@ header section{
     border: none;
 }
 
+/* Flower lover */
+.flower-lover-section{
+    padding: 50px 20px; 
+}
+.flower-container{
+    display: flex;
+    max-width: 1140px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 100px;
+}
+.flower-lover-item{
+    max-width: 540px;
+    margin:38px 0 38px 60px;
+}
+.flower-lover-title{
+    font-size: 50px;
+    font-weight: bold;
+
+}
+.flower-lover-item ul {
+    padding-left: 10px;
+}
+.flower-lover-item ul li{
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.5);;
+}
+
+
 /* Shared colors */
 .dark1{
     color: #252432;
@@ -164,6 +195,16 @@ header section{
     text-align: center;
     font-size: 22px;
     font-weight: bold;
+}
+
+/* Flower lovers */
+.flower-container{
+    display:block;
+    justify-content: center;
+    align-items: center;
+}
+.flower-lover-img{
+    width: 100%;
 }
 
 
