@@ -1,0 +1,62 @@
+/* font-style */
+/* .noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+/* Navbar styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px 120px 150px;
+}
+.menu-items{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+/* Banner styles */
+.banner{
+    display: flex;
+    justify-content: justify;
+    max-width: 1140px;
+    margin: 120px 150px 120px 150px;
+}
+.banner-items{
+    max-width: 600px;
+
+}
+.flower-condition{
+    font-size:  65px;
+    font-weight: 700;
+}
+.flower-info{
+    font-size: 22px;
+}
+.img{
+    max-width: 570px;
+    margin: 106px 0 0 570px;
+    height: 355px;
+}
+
+/* Shared colors */
+.dark1{
+    color: #252432;
+}
+.dark2{
+    color: #8987A1;
+}
+.orange{
+    color: #E95A08;
+}
+.info-color{
+    color: rgba(0, 0, 0, 0.5);
+}
