@@ -24,27 +24,32 @@ nav ul li a{
 }
 
 /* Banner styles */
+header section{
+    max-width: 1140px;
+}
 .banner{
     display: flex;
-    justify-content: justify;
+    justify-content:space-between;
+    align-items: center;
     max-width: 1140px;
+    height: 441px;
     margin: 120px 150px 120px 150px;
 }
 .banner-items{
-    max-width: 600px;
+    max-width: 570px;
 
 }
-.flower-condition{
-    font-size:  65px;
-    font-weight: 700;
+.banner-items h1{
+    font-size: 65px;
+    margin-bottom: 10px;
 }
 .flower-info{
     font-size: 22px;
 }
 .img{
     max-width: 570px;
-    margin: 106px 0 0 570px;
-    height: 355px;
+    /* margin: 106px 0 0 570px; */
+    height: auto;
 }
 
 /* Shared colors */
@@ -60,3 +65,31 @@ nav ul li a{
 .info-color{
     color: rgba(0, 0, 0, 0.5);
 }
+
+
+@media screen and (max-width:576px){
+    .navbar{
+        justify-content:center;
+        gap: 155px;
+    }
+    .menu-items li:not(.cart){
+        display: none;
+    }
+    .banner{
+        display:flex;
+        flex-direction: column-reverse;
+        margin-top: 100px;
+    }
+    .banner-items{
+        justify-items: left;
+    }
+    .banner-items h1{
+        font-size: 24px;
+    }
+    }
+    .img
+    {
+        width: 100%;
+        height: auto;
+    }
+} 
