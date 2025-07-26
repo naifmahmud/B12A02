@@ -241,11 +241,16 @@ header section{
 .join-text-color{
     color:rgba(255, 255, 255, 1); ;
 }
-
+/* Footer section */
 .footer {
-  display: flex;
-  justify-content: space-around;
-  gap: auto;
+    max-width: 1440px;
+}
+.footer-items{
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 150px;
+    gap: auto;
 }
 .footer-left {
   max-width: 300px;
@@ -271,7 +276,7 @@ header section{
 
 .footer-links ul li a {
   text-decoration: none;
-  color: #555;
+  color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
 }
 
@@ -281,7 +286,7 @@ header section{
 
 .footer-social {
   display: flex;
-  align-items: center;
+  align-items: start;
   gap: 15px;
 }
 
@@ -332,13 +337,7 @@ header section{
         font-weight: 300px;
         text-align: center;
     }
-    /* .plant-info{
-        font-size: 20px;
-        text-align: center;
-        margin-top: 10px;
-        margin: 0 auto;
-    } */
-
+    
     .plant-product{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -422,7 +421,6 @@ header section{
     display: flex;
     justify-items: start;
     margin-top: 0px;
-
 }
 
 .email{
@@ -443,32 +441,50 @@ header section{
 }
 /* footer section */
  .footer {
+    display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
     text-align: left;
-    padding: 30px 20px;
+    padding: 0 20px;
   }
+  .footer-items{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:100%;
+    margin: 50px auto;
+    gap: 40px;
+}
 
   .footer-left {
-    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 400px;
+    min-width: 250px;
   }
 
   .footer-links {
+    display: flex;
     flex-direction: column;
-    gap: 30px;
-    margin-bottom: 20px;
+    gap: 0px;
+    margin-bottom: 0px;
   }
-
-  .footer-links ul {
-    padding: 0;
+  .footer-links ul
+  {
+    gap: 0px;
+  }
+  .footer-links ul li a{
+    gap: 0px;
   }
 
   .footer-social {
-    justify-content: left;
+    display: flex;
+    justify-content: start;
+    margin-left:35px ;
+    gap: 10px;
   }
 
   .footer-social img {
-    width: 30px;
-    height: 30px;
-  }
+    width: 24px;
+    height: 24px;
+  } 
 }
