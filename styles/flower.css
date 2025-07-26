@@ -366,6 +366,10 @@ header section{
     font-size: 22px;
     font-weight: bold;
 }
+/* badge section */
+.trusted-badge{
+    display: none;
+}
 
 /* Flower lovers */
     .flower-container{
