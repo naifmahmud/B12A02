@@ -33,7 +33,7 @@ header section{
     align-items: center;
     max-width: 1140px;
     height: 441px;
-    margin: 120px 150px 120px 150px;
+    margin: 0 auto;
 }
 .banner-items{
     max-width: 570px;
@@ -75,7 +75,7 @@ header section{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     row-gap: 30px;
-    column-gap:20px;
+    column-gap:5px;
     
 }
 .plants{
@@ -147,6 +147,7 @@ header section{
     text-align: center;
     gap: 30px;
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 .card-bloom{
     background-image: url(../images/deal-bloom.png);
@@ -176,6 +177,7 @@ header section{
     font-weight: bold;
     text-align: center;
     color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0.4);
     border-radius: 14px;
 }
 .card-zabo{
@@ -318,17 +320,24 @@ header section{
 
     /* our plants */
     .our-plants{
-        justify-items: left;
+        max-width: 100%;
+        margin: 0 auto;
+        text-align: center;
     }
     .plants-tile{
-        font-size: 24px;
+        font-size: 30px;
     }
-    .plant-info{
-        justify-items: left;
-        font-size: 14px;
-        font-weight: 400px;
+    .our-plants p{
+        font-size: 20px;
+        font-weight: 300px;
+        text-align: center;
+    }
+    /* .plant-info{
+        font-size: 20px;
+        text-align: center;
+        margin-top: 10px;
         margin: 0 auto;
-    }
+    } */
 
     .plant-product{
     display: grid;
@@ -337,7 +346,8 @@ header section{
     row-gap: 30px;
     column-gap:20px;
 }
-.plants{
+
+    .plants{
     box-shadow: 0 4 4 0;
     text-align: center;
     font-size: 22px;
@@ -345,18 +355,22 @@ header section{
 }
 
 /* Flower lovers */
-.flower-container{
+    .flower-container{
     display:block;
     justify-content: center;
     align-items: center;
 }
-.flower-lover-img{
+    .flower-lover-img{
     width: 100%;
 }
 /* deal section */
 .deal-container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin:20px 65px;
+    margin-bottom: 20px;
     
 }
 .card-zabo{
@@ -369,11 +383,12 @@ header section{
     font-weight: bold;
     color: rgba(255, 255, 255, 1);
     background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 22px;
+    border-radius: 22px;}
 
 .zabo-deal-details{
     text-align: center;
     padding: 50px 47px;
+    margin-bottom: 20px;
 }
 
 /* Joint section */
@@ -382,46 +397,48 @@ header section{
     background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    margin: 0 auto;
+    width: 393px;
+    height: 276px;
+    /* align center var&horizontally */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
 }
 .join-form{
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: centers;
+    gap: 10px;
 }
 .join-text{
-    width: 250px;
+    width:100%;
     font-size: 20px;
-    text-align:left;
-    /* width: 100%; */
-    margin: 0 auto;
-    padding: 0 2px;
+    margin-bottom: 10;
+    padding: 0;
 }
 .Subscribe{
     display: flex;
-    max-width: 200px;
-    margin: auto;
-    border-radius: 5px;
+    justify-items: start;
+    margin-top: 0px;
+
 }
-.Subscribe input, .Subscribe button{
-    width: 150px;    
-    font-size: 16px;
-    padding: 5px;
-    border-radius: 0;
-}
+
 .email{
-    width: 150px;;
+    font-size: 14px;
+    width: 180px;;
     height: 20px;
-    padding: 5px;
+    padding: 10px;
     border:1px solid gainsboro;
+
 }
 .cartbtn{
     color: rgba(255, 255, 255, 1);
     background-color: #E95A08;
-    width: 100px;
+    width: 100%;
     height:auto;
-    padding: 10px;
+    padding: 13px 18px;
     border: none;
 }
 /* footer section */
@@ -454,4 +471,4 @@ header section{
     width: 30px;
     height: 30px;
   }
-}}
+}
