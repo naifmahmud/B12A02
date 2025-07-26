@@ -97,6 +97,20 @@ header section{
     border: none;
 }
 
+/* Trusted-badge  */
+.trusted-badge{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5px; */
+}
+.trusted-badge img{
+    margin-left: 550px;
+    margin-top: -70px;
+    width: 300px;
+    height: 300px;
+    box-shadow: -4 10 4 0;
+}
 /* Flower lover */
 .flower-lover-section{
     padding: 50px 20px; 
